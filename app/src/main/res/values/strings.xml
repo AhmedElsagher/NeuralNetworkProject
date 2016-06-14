@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MLPrpject</string>
+    <string name="word">  This app is not made for
+        solving problem of binary classification but
+        for proving the concept.\n  To avoid any errors
+        please use 2 inputs of single layer neural network AND OR NOR NAND</string>
+</resources>

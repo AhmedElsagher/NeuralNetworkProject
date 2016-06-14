@@ -1,0 +1,187 @@
+<GridLayout
+    android:id="@+id/GridLayout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:padding="20dp"
+    android:background="#5FC2F1"
+    android:columnCount="3"
+
+    tools:context=".GridLayoutActivity">
+
+    <TextView
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:text="X1"
+
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="0"
+        android:gravity="center"
+
+        android:layout_rowWeight="1"
+        android:text="X2"
+
+        android:textSize="30sp"/>
+
+    <!--<EditText-->
+        <!--android:id="@+id/out4"-->
+        <!--android:hint="enter value"-->
+
+        <!--android:layout_column="2"-->
+        <!--android:layout_columnWeight="2"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:layout_row="4"-->
+        <!--android:layout_rowWeight="1"-->
+        <!--android:textSize="20sp"/>-->
+    <TextView
+         android:layout_column="2"
+        android:layout_columnWeight="2"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:text="out"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="1"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="1"
+        android:text="0"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="2"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="2"
+        android:text="1"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="3"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="3"
+        android:text="0"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="4"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="4"
+        android:text="1"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:hint="enter value"
+
+    android:id="@+id/out1"
+        android:layout_column="2"
+        android:layout_columnWeight="2"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/out2"
+        android:hint="enter value"
+
+        android:layout_column="2"
+        android:layout_columnWeight="2"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/out3"
+        android:hint="enter value"
+
+        android:layout_column="2"
+        android:layout_columnWeight="2"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/out4"
+        android:layout_column="2"
+
+        android:layout_columnWeight="2"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_row="4"
+        android:layout_rowWeight="1"
+        android:hint="enter value"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_rowWeight="1"
+     android:layout_column="0"
+    android:layout_columnSpan="3"
+     android:text="getResult"
+     android:background="#ffe900"
+        android:onClick="getResult"
+     android:layout_width="346dp"/>
+
+
+
+</GridLayout>
